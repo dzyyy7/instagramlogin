@@ -50,7 +50,7 @@ class _IGRegist extends State<IGRegist> {
                     enabledBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.all(Radius.circular(7.0)),
                         borderSide: BorderSide(
-                          color: const Color.fromARGB(255, 194, 194, 194), // Warna abu-abu saat tidak fokus
+                          color: const Color.fromARGB(255, 194, 194, 194), 
                         ),
                       ),
                     filled: true,

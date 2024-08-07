@@ -64,7 +64,7 @@ class _IGRegist2 extends State<IGRegist2> {
                       borderRadius: BorderRadius.all(Radius.circular(7.0)),
                       borderSide: BorderSide(
                         color: const Color.fromARGB(255, 194, 194,
-                            194), // Warna abu-abu saat tidak fokus
+                            194), 
                       ),
                     ),
                     filled: true,

@@ -70,17 +70,17 @@ class _igLogin extends State<IgLogin> {
                       enabledBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.all(Radius.circular(13.0)),
                         borderSide: BorderSide(
-                          color: const Color.fromARGB(255, 194, 194, 194), // Warna abu-abu saat tidak fokus
+                          color: const Color.fromARGB(255, 194, 194, 194),
                         ),
                       ),
                       filled: true,
                       fillColor: Colors.white,
                       focusedBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.all(
-                            Radius.circular(13.0)), // Tetap menggunakan radius
+                            Radius.circular(13.0)),
                         borderSide: BorderSide(
                           color: const Color.fromARGB(255, 10, 10,
-                              10), // Mengubah warna border saat fokus
+                              10), 
                         ),
                       ),
                     ),
@@ -98,17 +98,17 @@ class _igLogin extends State<IgLogin> {
                       enabledBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.all(Radius.circular(13.0)),
                         borderSide: BorderSide(
-                          color: const Color.fromARGB(255, 194, 194, 194), // Warna abu-abu saat tidak fokus
+                          color: const Color.fromARGB(255, 194, 194, 194), 
                         ),
                       ),
                       filled: true,
                       fillColor: Colors.white,
                       focusedBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.all(
-                            Radius.circular(13.0)), // Tetap menggunakan radius
+                            Radius.circular(13.0)),
                         borderSide: BorderSide(
                           color: const Color.fromARGB(255, 10, 10,
-                              10), // Mengubah warna border saat fokus
+                              10), 
                         ),
                       ),
                     ),
@@ -121,7 +121,9 @@ class _igLogin extends State<IgLogin> {
               height: 42,
               width: 335,
               child: ElevatedButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    
+                  },
                   child: Text("Login", style: TextStyle(color: Colors.white)),
                   style: ElevatedButton.styleFrom(
                     backgroundColor: const Color.fromARGB(255, 33, 96, 243),
@@ -151,7 +153,7 @@ class _igLogin extends State<IgLogin> {
                             TextStyle(color: Color.fromARGB(255, 23, 44, 149))),
                     style: OutlinedButton.styleFrom(
                       side: BorderSide(
-                          color: Colors.blue, width: 1), // Warna border biru
+                          color: Colors.blue, width: 1), 
                       backgroundColor: Color.fromARGB(255, 226, 244, 253),
                     ),
                   ),
